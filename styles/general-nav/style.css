@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+#GeneralNav {
+    white-space: normal;                
+}
+
+#GeneralNav > ul {
+    /*bottom: 12px;*/
+    bottom: 2.0vh;
+    display: table;
+    /*font-size: 10px;*/
+    /*font-size: 0.625rem;*/
+    font-size: 0.9rem;
+    
+    list-style-type: none;
+    /*margin: 80px 0 0 0;*/
+
+
+   /*margin: 12.441vh 0 0 0;8*/
+    /*margin: 10.6vh 0 0 0;*/
+    margin: 9.1vh 0 0 0;
+
+    padding: 0;
+
+    position: relative;
+    /*width: 724px;*/
+    /*width: 112.597vh;*/
+    
+    text-transform: uppercase;
+    width: 112.354vh;
+
+
+}
+
+#GeneralNav li:before {
+        content: "" !important;
+        margin-left: 0px;
+    }
+                
+#GeneralNav > ul > li {
+    display: table-cell;
+    /*padding: 0 10px 0 10px;*/
+    padding: 0 1.156vh 0 1.156vh;
+    text-align: center;
+}
+
+#GeneralNav > ul > li > a {
+    color: #ffffff;
+    display: block;
+    /*height: 30px;*/
+    height: 4.666vh;
+    text-decoration: none;
+}
+
+#GeneralNav li + li {
+    background:url(images/bg-general-nav-border.png) left top no-repeat;
+}
+ 
+ 
+#GeneralNav > ul > li > div  {
+     background: url(images/bg-general-nav-with-submenu.png) center bottom no-repeat;
+     /*padding: 12px 0 0 0;*/
+     /*padding: 1.866vh 0 0 0;*/
+     padding: 1.300vh 0 0 0;
+ }
+ 
+ .DropdownTop  ul {
+     display: none;
+ }
+ 
+ .DropdownTop:hover  ul {
+     display: table;
+     background-color: #f1edea;
+     font-size: 0;
+     left: 0;
+     /*margin: 5px 0 0 0 !important;*/
+     /*margin: 0.778vh 0 0 0 !important;*/
+     margin: 2.4vh 0 0 0 !important;
+     
+     /*padding: 0 15px 5px 15px;*/
+     padding: 0 1.793vh 0.778vh 1.793vh;
+     position: absolute; 
+     text-align: left;
+     /*top: 23px;*/
+     /*top: 3.577vh;*/
+     top: 3.5vh;  
+     /*width: 835px;*/
+     width: 129.9vh !important;
+     z-index: 12;
+     }
+     
+     .DropdownTop  ul  li {
+         background: none !important;
+         border: none;
+         display: inline-block;
+         
+         /*font-size: 10px;*/
+         /*font-size: 0.625rem;*/
+         font-size: 0.8rem;
+         /*height: 35px !important;*/
+         height: 5.443vh  !important;
+         text-align: center;
+         /*width: 167px;*/
+         width: 25.9vh;
+         /*line-height: 35px;*/ 
+         /*line-height: 5.443vh;*/
+         line-height: 6.5vh;
+         
+     }
+     
+     .DropdownTop  ul  li:nth-child(5n+1)::before {
+         content: " ";
+         background: url(images/bg-dropdown-nav.png) left center no-repeat ;
+         background-size: cover;
+         display: block;
+         /*height: 5px;*/
+         height: 0.778vh;
+         /*width: 835px;*/
+         /*width: 129.86vh;*/
+         width: 129.764vh;
+     }
+     .DropdownTop  ul  li:nth-child(1)::before {
+         content: " ";
+         background: none;
+         
+     }
+     
+     
+    
+     .DropdownTop  ul  li  a {
+        display: inline-block;
+        vertical-align: middle !important;
+         
+     }
+     
+     .DropdownTop a {
+         background: none;
+         color: #ffffff;
+         text-decoration: none;
+         text-align: left;
+     }
+     
+     .DropdownTop a:hover {
+         color: #000000;
+     }

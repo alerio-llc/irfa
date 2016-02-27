@@ -1,0 +1,89 @@
+.Slider {
+    height: 434px; /*РЅРµ СѓРґР°Р»СЏС‚СЊ, СЃС‚СЂРµР»РєРё РЅР°С‡РЅСѓС‚ СЃРєР°РєР°С‚СЊ*/
+    position: relative;
+    width: 1058px; /*РЅРµ СѓРґР°Р»СЏС‚СЊ, СЃС‚СЂРµР»РєРё РЅР°С‡РЅСѓС‚ СЃРєР°РєР°С‚СЊ*/
+}
+
+.SliderContent {
+    float: left;
+    height: 434px;
+    position: relative;
+    z-index: 1 !important;
+    width: 1058px;
+}
+
+.SliderContent .Item {
+    height: 434px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1 !important;
+}
+
+.Slider img {
+    height: 434px;
+    width: 1058px;
+}
+
+.SliderArrows {
+    height: 434px;
+    /*background: url(images/bgSlider.png); это разместить в кастомизации стилей*/
+    position:relative;
+    width: 1061px;
+    z-index:10;
+}
+
+.SliderArrows a{
+    text-indent:-9999px;
+}
+.Prev {
+    background:url(images/slidebox_previous.png) no-repeat;
+    height: 434px;
+    left: 0;
+    position:absolute;
+    width: 46px;
+}
+
+.Prev:hover {
+    background:url(images/slidebox_previous_hover.png) no-repeat;
+}
+
+.Next {
+    background:url(images/slidebox_next.png) no-repeat;
+    height: 434px;
+    position:absolute;
+    right: 0;
+    width: 46px;
+}
+
+.Next:hover {
+    background:url(images/slidebox_next_hover.png) no-repeat;
+}
+
+.SliderBullets {
+    height: 20px;
+    left: 80px;
+    overflow: hidden;
+    position: absolute;
+    top: 390px;
+    z-index: 11;
+    width: 905px; 
+}
+
+.SliderBullets a {
+    background:url(images/slidebox_thumb.png) no-repeat;
+    float: left;
+    height: 18px;
+    margin: 2px;
+    text-indent: -9999px;
+    width: 18px; 
+}
+
+.SliderBullets a:hover{
+    background: url(images/slidebox_thumb_hover.png) no-repeat;
+    display: block;
+    float: left;
+}
+
+.SliderBullets .Active {
+    background: url(images/slidebox_thumb_hover.png) no-repeat;
+}

@@ -1,0 +1,99 @@
+/*Стили для формы Заявка на консультацию*/
+@CHARSET "UTF-8";
+
+.Statement {
+   align-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+   width: 30%;
+}
+
+.AddFile {
+         align-content: space-between;
+	     display: flex;
+	     flex-wrap: wrap;
+	     /*margin-top: 28px;*/
+	     margin-top: 4.354vh;
+	    }
+	    
+	    .AddFile h4 {
+	        /*margin-bottom: 5px !important;*/
+	        margin-bottom: 0.777vh !important;
+	        font-weight: normal !important;
+	    }
+	    
+    	    .WrapeFile {
+    	        font-size: 0;
+    	    }
+	    
+        	    .FileUpload {
+        	         /*border: 1px solid #a7a7a7;*/
+        	         /*border: 0.155vh solid #a7a7a7;*/
+        	         background: #c3c5c7;
+        	         display: inline-block;
+        	         /*height: 17px;*/
+        	         height: 2.644vh;
+                     overflow: hidden;
+                     position: relative;
+                     /*padding: 0px 9px 8px 9px;*/
+                     padding: 0px 1.399vh 1.244vh 1.399vh;
+                     display: inline-block;
+                     vertical-align: middle;
+                     /*width: 40px;*/
+                     width: 6.220vh;
+                     /*font-size: 13px;*/
+                     font-size: 0.8125rem;
+                     /*margin: 0 5px 8px 0;*/
+                     margin: 0 0.777vh 1.244vh 0;
+                }
+                
+                    .FileUpload span {
+                         color: #ffffff !important;
+                         /*line-height: 25px;*/
+                         line-height: 3.888vh;
+                         /*margin: 0 25px 0 0px;*/
+                         margin: 0 3.888vh 0 0;
+                    }
+                    
+                    .FileUpload label {
+                       
+                       cursor: pointer;
+                       height: 100%;
+                       position: absolute;
+                       width: 100%;
+                       
+                    }
+                    
+                    .FileUpload input[type="file"]{
+                        display: none;
+                     }
+            
+               .FileName {
+                     /*background: #e7e8e8 !important;
+                     color: #918f8f !important;*/
+                     
+                     /*background: rgba(231, 232, 232, 0.22);                     
+                     border: 0.156vh solid #f2f2f2 !important;*/
+                     
+                     background: #f2f2f2;
+                     border: none;  
+                     
+                     display: inline-block;
+                     /*font-size: 13px !important;*/
+                     font-size: 0.8125rem !important;
+                     /*height: 28px;*/
+                     height: 4.354vh;
+                     /*padding: 0 0 0 10px !important;*/
+                     padding: 0 0 0 1.555vh !important;
+                     vertical-align: middle;
+                     /*width: 210px !important;*/
+                     width: 32.659vh !important;
+               }
+               
+               .FileNameMargin {
+                   /*margin: 2px 0 0 3px;*/
+                   margin: 0.311vh 0 0 0.466vh;
+               }
+       
+     
+        

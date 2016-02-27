@@ -1,0 +1,1348 @@
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Alerio Llc
+email:     info@alerio.ru
+website:   http://www.alerio.ru/
+-----------------------------------------------------------------------------*/
+
+
+
+@media screen { 
+	
+
+	
+    html {
+        font-size: 2.489vh; 
+   }
+
+	
+	@font-face {
+    font-family: "Anglecia Pro Display"; /* Имя шрифта */
+    src: url(font/anglecia-pro-display.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+   
+   
+	
+	/* =СТИЛИ ПРИБИТОГО ФУТЕРА=       
+    -----------------------------------------------------------------------------*/ 
+    html, 
+	body, 
+	.PseudoBody, 
+	#Wrapper {
+        height: 100%;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+	}	 
+   
+    #Wrapper {
+        background: url(images/bg-wrapper.png);
+        background-size: 100% 100%; /* Для всех браузеров сразу  */            
+   }
+   
+    #Content {
+        padding-bottom: 50%;
+   }
+   
+    #Footer {
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+   }
+    
+	/* =БАЗОВЫЕ СТИЛИ=       
+	-----------------------------------------------------------------------------*/	
+	.PseudoBody {
+        width: 100%;
+    }
+    
+    
+    body {
+        color: #230F00;
+        font-family: Georgia, sans-serif;
+        /*font-size: 11px;*/
+        /*font-size: 0.8125rem;*/
+        font-size: 1rem;
+        
+        line-height: 120%;
+        /*min-width: 1004px;*/
+        min-width: 156vh;
+        min-height: 643px;
+        text-align: juistfy;
+    }
+		
+	.PseudoBody h1,
+    .PseudoBody h2,
+    .PseudoBody h3,
+    .PseudoBody h4,
+    .PseudoBody h5,
+    .PseudoBody h6,
+    .PseudoBody p,
+    .PseudoBody pre,
+    .PseudoBody blockquote,
+    .PseudoBody form,
+    .PseudoBody fieldset,
+    .PseudoBody table,
+    .PseudoBody ul,
+    .PseudoBody hr {
+        /*margin: 8px 0;*/
+        margin: 1.245vh 0;
+    }
+    
+    .PseudoBody h1,
+    .PseudoBody h2,
+    .PseudoBody h3,
+    .PseudoBody h4,
+    .PseudoBody h5,
+    .PseudoBody h6 {
+       color: #222222;
+       font-weight: normal;
+       /*margin: 20px 0 5px 0;*/
+       margin: 3.111vh 0 0.778vh 0;
+       line-height: 130%;
+    }
+    
+   .PseudoBody h1 {
+        /*font-size: 24px;*/
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    .PseudoBody h2 {
+        /*font-size: 18px;*/
+        font-size: 1.125rem;
+        text-transform: uppercase;
+    }
+    
+    .PseudoBody h3 {
+        color: #2a1504;
+        /*font-size: 32px;*/
+        font-size: 2rem;
+        font-style: italic;   
+        text-transform: none;  
+    }
+    
+    .PseudoBody h4 {
+        /*font-size: 16px;*/
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 110%;
+    }
+    
+    .PseudoBody h5 {
+        /*font-size: 15px;*/
+        font-size: 0.9375rem;
+    }
+    
+    .PseudoBody h6 {
+        /*font-size: 14px;*/
+        font-size: 0.875rem;
+    }
+    
+    .PseudoBody ul,
+    .PseudoBody ol {
+        list-style-position: outside;
+        /*margin-left: 20px;*/
+        margin-left: 3.111vh;
+    }
+    
+    .PseudoBody ul {
+        display: block;
+        /*margin: 20px 0 20px 12px;*/
+        margin: 3.111vh 0 3.111vh 1.867vh;
+    }
+    
+    .PseudoBody ol {
+        display: block;
+        list-style-type: decimal;
+        /*padding: 3px 0;*/
+        padding: 0.467vh 0;
+    }
+    
+    .PseudoBody li {
+        /*padding: 3px 0;*/
+        padding: 0.467vh 0;
+        /*margin: 5px 0;*/
+        margin: 0.778vh 0;
+    }
+    
+    .PseudoBody ul > li {
+        list-style: none;
+    }
+    
+    .PseudoBody ul > li:before {
+        content: "‒ ";
+        /*margin-left: -12px;-*/
+        margin-left: -1.867vh;
+    }
+    
+    
+    .PseudoBody table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        /*margin: 15px 0;*/
+        margin: 2.333vh 0;
+        width: 100%;
+    }
+    
+    .PseudoBody table td {
+        background: #f5f5f5;
+        /*border: 1px #A4A4A4 solid;*/
+        border: 0.156vh #A4A4A4 solid;
+        /*padding: 2px 5px;*/
+        padding: 0.311vh 0.778vh;
+    }
+    
+    .PseudoBody table th {
+        background: #f5f5f5;
+        /*border: 1px #A4A4A4 solid;*/
+        border: 0.156vh #A4A4A4 solid;
+        color: #A40000;
+        font-weight: bold;
+        /*padding: 2px 5px;*/
+        padding: 0.311vh 0.778vh;
+        text-align: center;
+    }   
+    
+    .PseudoBody a,
+    .PseudoBody a:hover,
+    .PseudoBody a:link,
+    .PseudoBody a:visited {
+        color: #222222;
+        outline: medium none;
+    }
+    
+    .PseudoBody a[target="_blank"],
+    .PseudoBody a[target="blank"]{
+        background: url(Images/iconOut.png) no-repeat right center;
+        color: #850000;
+        font-weight: bold;
+        /*padding: 0 12px 0 0;*/
+        padding: 0 1.867vh 0 0;
+    }
+    
+    .PseudoBody img {
+        border: 0;      /* Убирает рамку у посещенных по ссылке изображений */
+    }
+    
+    .PseudoBody hr { 
+        /*border: 1px inset;*/
+        border: 1.156vh inset;
+        color: gray;
+        display: block;
+        /*height: 2px;*/
+        height: 0.311vh;
+        
+        
+    }
+    
+    .PseudoBody input, 
+    .PseudoBody textarea, 
+    .PseudoBody select {
+        /*background: #c3c5c7;*/
+        /*background: #a4a4a4;*/
+        
+        /*background: #e7e8e8 !important;*/
+        /*background: rgba(231, 232, 232, 0.22);*/
+        background: #f2f2f2;                     
+        
+        
+        
+        
+        
+        /*border: 1px solid #a7a7a7;*/
+        /*border: 0.156vh solid #a7a7a7;*/
+        /*border: 0.156vh solid #f2f2f2 !important;*/
+        border: none;
+        
+        box-sizing: border-box;
+        
+        /*color: #ffffff;*/
+        color: #000000;
+        
+        
+        /*font-family: "Anglecia Pro Display";*/
+        
+        font-family: Georgia;
+        /*font-size: 11px;*/
+        /*font-size: 0.6875rem;*/
+        font-size: 1rem;
+        /*height: 27px;*/  
+        height: 4.199vh;
+        /*margin: 0 0 8px 0;*/ 
+        margin: 0 0 1.245vh 0;
+        /*padding: 0 2px;*/
+        padding: 0 0.311vh;
+    }
+    
+    .PseudoBody input, .PseudoBody textarea {
+        width:100%;
+        
+    }
+    
+    .PseudoBody textarea {
+        width:100%;
+        /*height: 100px;*/
+        height: 15.552vh;
+        margin: 0 !important;
+    }
+    
+    .PseudoBody input[type="submit"] {
+        /*height: 32px;*/
+        height: 4.977vh;
+        
+         font-size: 0.9rem;
+        
+        /*width: 100px;*/
+        width: 15.552vh;
+    }
+    
+    .PseudoBody label {
+        text-align: right;
+    }
+    
+    /*
+    .PseudoBody input::-moz-placeholder { color: #ffffff; }
+    .PseudoBody input::-webkit-input-placeholder { color: #ffffff; }
+    .PseudoBody input:-ms-input-placeholder      {color:#ffffff;}
+    .PseudoBody textarea::-moz-placeholder { color: #ffffff; }
+    .PseudoBody textarea::-webkit-input-placeholder { color: #ffffff; }
+    .PseudoBody textarea:-ms-input-placeholder      {color:#ffffff;}
+    */
+    
+ 
+     .PseudoBody input::-moz-placeholder { color: #000000; }
+    .PseudoBody input::-webkit-input-placeholder { color: #000000; }
+    .PseudoBody input:-ms-input-placeholder      {color:#000000;}
+    .PseudoBody textarea::-moz-placeholder { color: #000000; }
+    .PseudoBody textarea::-webkit-input-placeholder { color: #000000; }
+    .PseudoBody textarea:-ms-input-placeholder      {color:#000000;}
+    
+    
+    
+    
+    
+    
+    
+    
+    .PseudoBody label span {
+        color: red;
+    }
+    
+    .PseudoBody b, 
+    .PseudoBody strong {
+        font-weight: bold !important; 
+    }
+    
+    .PseudoBody p b, 
+    .PseudoBody p strong {
+        /*color: #7b7b7b;*/
+    }
+	
+	.PseudoBody div {
+        /*border: #000000 1px solid;          /*TODO: убрать границу по окончании верстки*/
+    }    
+    
+	/* =ОФОРМЛЕНИЕ ДОКУМЕНТА=  
+	/*  Далее файл структурируем по принципу "сверху вниз": список стилей составляеся в том порядке, в котором данные стили применяются (появляются в документе) на странице.
+	/*  Любая секция структуры документа: #Header(Шапка), #TopBar(Верхняя панель), #LeftSidebar (Левая боковая панель), #RightSidebar (Правая боковая панель), #BottomBar (Нижняя)
+    /*  могу содержать меню и другую навигацию: #GeneralNav - основное меню, #SectionNav - меню раздела, #SubNav - подменю, #AdditionalNav - дополнительное меню (навигация).
+    -----------------------------------------------------------------------------*/
+	/* Обертка : --начало-- */
+    #Wrapper {
+ 
+        margin: 0 auto;
+        /*min-width: 1004px; /* Для адаптивной верстки это значение необходимо изменить на 100% */
+        min-width: 156vh;
+        text-align: left;
+	}
+	
+	
+	#Slider {
+	   height: 100%;
+	   /*min-width: 1004px;*/
+	   min-width: 156vh;
+	   min-height: 643px;
+	   position: absolute;
+	   width: 100%;
+	}
+	
+	.Contaner {
+	   margin: 0 auto !important;
+	   /*padding: 0 5px;*/
+	   /*padding: 0 0.778vh;*/
+	   padding: 0 0.5vh;
+	   
+	   /*width: 994px;*/
+	   /*width: 154.588vh;*/
+	   /*width: 153.032vh;*/
+	   width: 154vh;
+	}
+	
+	.WholeScreen {
+	   /*height: 100%;*/
+	   height: 90%;
+	   overflow: hidden;
+	   position: relative;
+	   width: 100%;
+	   z-index: 2;
+	}
+	
+	.HalfScreen {
+       /*height: 50% !important;*/
+       height: 45% !important;
+       overflow: hidden;
+       position: relative;
+       z-index: 2;
+    }
+	
+		/* Шапка : --начало-- */
+		#Header {
+		  /*font-size: 10px;*/
+		  font-size: 0.625rem;
+	      /*height: 135px;*/
+	      height: 20.996vh;
+	      
+	      
+	      /*margin: 10px 0 0 0;*/
+	      margin: 1.556vh 0 0 0;
+	      position: absolute;
+	      z-index: 999;	      
+	      
+	      
+	      white-space: nowrap;
+	    }
+	    
+            /* Branding : начало -- */
+		    #Branding {
+		        display: inline-block;
+		        vertical-align: top;
+		    }
+		          
+			    #Logo {
+			        background: url(images/logo.png) no-repeat;
+			        /*background-size: 104px 95px;*/
+			        /*background-size: 16.175vh 14.775vh;*/
+			        /*background-size: 20.996vh 20.996vh;*/
+			        background-size: 100%;
+			        
+					/*border-right: 10px solid rgba( 255, 255, 255, 0.8);*/
+					/*border-right: 1.556vh solid rgba( 255, 255, 255, 0.8);*/
+					/*border-left: 10px solid rgba( 255, 255, 255, 0.8);*/
+					/*border-left: 1.556vh solid rgba( 255, 255, 255, 0.8);*/
+					/*border-top: 25px solid rgba( 255, 255, 255, 0.8);*/
+					/*border-top: 3.888vh solid rgba( 255, 255, 255, 0.8);*/
+					/*border-bottom: 15px solid rgba( 255, 255, 255, 0.8);*/
+					/*border-bottom: 2.333vh solid rgba( 255, 255, 255, 0.8);*/
+			        display: block;
+			        /*height: 95px;*/
+			        /*height: 14.775vh;*/
+			        height: 20.996vh;
+			        /*width: 104px;*/
+			        /*width: 16.175vh;*/
+			        width: 20.996vh;
+			    }
+			    
+			    #Logo img {
+			         /*height: 95px;*/
+			         /*height: 14.775vh;*/
+			         height: 20.996vh;
+			         /*width: 104px;*/
+			         /*width: 16.175vh;*/
+			         width: 20.996vh;
+			    }
+			/* Branding : конец -- */
+			
+			#HeaderInside {
+			     background-color: rgba(48, 26, 10, 0.9);
+			     box-sizing: border-box;
+                 color: #ffffff;
+			     display: inline-block;
+			     /*height: 135px;*/
+			     height: 20.996vh;
+                 /*text-transform: uppercase ;*/
+			     vertical-align: top;
+			     /*width: 730px;*/
+			     /*width: 114.063vh;*/
+			     width: 112.354vh;
+			}
+			  #TopOfHeader {
+			     background: #3a2718; 
+			     height: 3.2vh; 
+			     overflow: hidden;
+			     width: 100%;
+			  }
+
+	           #IconHome {
+			         background: #4a3729;
+			         display: inline-block;
+			         vertical-align: top;
+			         height: 100%;
+			     }
+				         #IconHome a {
+	                        background: url(images/ico-home.png) no-repeat;
+	                        background-size: 100%;
+	                        display: block;
+	                        /*height: 20px;*/
+	                        height: 2.90vh;
+	                        /*width: 20px;*/
+	                        width: 3.111vh;
+	                        margin: 0.30vh 0 0 0;
+	                 }
+			     
+			     #Search {
+			         /*background: #4a3729;*/
+			         background: #45382b;
+			         display: inline-block;
+			         vertical-align: top;
+			         /*width: 210px;*/
+			         width: 32.660vh;
+			     }
+			         #Search form {
+			             margin: 0;
+			         }
+			     
+				         #Search input[type="text"] {
+				             box-sizing: border-box;
+	                         /*background:  #4a3729;*/
+	                         background:  #45382b;
+	                         border: 0;
+	                         /*height: 20px;*/
+	                         height: 3.2vh;
+	                         margin: 0;
+	                         vertical-align: top;
+	                         /*width: 190px;*/
+	                         width: 29.549vh;
+	                     } 
+				     
+				         #Search input[type="submit"] {
+				             box-sizing: border-box;
+				            /* background: url(images/ico-search.png) no-repeat #4a3729;*/
+				             background: url(images/ico-search.png) no-repeat #45382b;
+				             background-size: 100%;
+				             border: 0;
+				             /*height: 20px;*/
+				             height: 2.95vh;
+				             margin: 0.30vh 0 0 0;
+				             vertical-align: top;
+				             /*width: 20px;*/
+				             width: 3.111vh;
+				         } 
+				         
+                    #Counter {
+                        /*background: rgba(58, 39, 24, 0.7);*/ 
+                        background: #3a2718;
+                        display: inline-block;
+                        /*padding: 0 10px 0 0;*/
+                        height: 3.2vh;
+                        padding: 0 1.400vh 0 0;
+                        text-align: right;
+                        vertical-align: top;
+                        /*width: 490px;*/
+                        width: 74.2vh;
+                        
+                    }
+                    
+                        #Counter p {
+                            /*font-size: 11px;*/
+                            /*font-size: 0.6875rem;*/
+                            font-size: 0.9rem;
+                            /*height: 20px;*/
+                            height: 3.111vh;
+                            /*line-height: 180%;*/
+                            line-height: 140%;
+                            margin: 0;
+                            text-align: right;
+                        }
+                        
+                    #QuickContacts {
+                        /*font-size: 11px;*/
+                        /*font-size: 0.6875rem;*/
+                        font-size: 1.1rem;
+                        /*padding: 0 10px 0 0;*/
+                        padding: 0 1.556vh 0 0;
+                        text-align: right;
+                        
+                    }    
+                    
+                    #QuickContacts p {
+                        line-height: 180%;
+                        margin: 0;
+                        text-align: right;
+                    }
+                    
+                     #QuickContacts p a {
+                        padding: 0;
+                     }
+                    
+                     #QuickContacts p a img {
+                        height: 3vh !important;
+                        opacity: 0.9;
+                        vertical-align: middle;
+                     }
+			
+			#OnlineConsultation {
+			     /*background: url(images/bg-online-consultation.png) center no-repeat;*/
+			     
+			     background: url(images/online-konsult.svg) center no-repeat;
+			     background-size: 100%;
+			     display: inline-block;
+			     /*height: 135px;*/
+			     height: 20.996vh;
+			     vertical-align: top;
+			     /*width: 135px;*/
+			     /*width: 19.287vh;*/
+			     width: 20.996vh;
+			}
+			
+			#OnlineConsultation:hover {
+                 cursor: pointer;                 
+                 background: url(images/online-konsult-hover.svg) center no-repeat;
+                 background-size: 100%;
+            }
+			
+			.ImportentList {
+                 /*font-size: 12px;*/
+                 font-size: 0.75rem;
+                 text-transform: uppercase;
+                 line-height: 170%;
+                 /*margin: 30px 0 0 0;*/
+                 margin: 4.666vh 0 0 0;
+             }
+             
+             .MainTextBlock {
+                /*margin: 20px 0 0 125px;*/
+               /*margin: 3.11vh 0 0 19.441vh;*/
+               margin: 3.11vh 0 0 20.996vh;
+               
+               
+               
+                /*padding-right: 5px;*/
+               /*padding: 22.552vh 0.778vh 0 0;*/
+               padding: 0 0.778vh 0 0; 
+                
+               
+             }
+             
+             .MainTextBlock h3 {
+                /*font-size: 19px;*/
+                font-size: 1.1875rem;
+                /*margin-top: 5px;*/
+                margin-top: 0.778vh;
+             }
+             
+             .MainTextBlock ul {
+                /*margin: 10px 0 10px 12px*/
+                margin: 1.156vh 0 1.156vh 1.867vh;
+             }
+			
+			
+			.TwoColumnText {
+				    column-width: 50%;
+				    -moz-column-width: 50%;
+				    -webkit-column-width: 50%;
+				    column-count: 2;
+				    -moz-column-count: 2;
+				    -webkit-column-count: 2;
+				    /*column-gap: 30px;*/
+				    column-gap: 4.666vh;
+                    /*-webkit-column-gap: 30px;*/
+                    -webkit-column-gap: 4.666vh;
+                    /*-moz-column-gap: 30px;*/
+                    -moz-column-gap: 4.666vh;
+                    /*margin: 15px;*/
+                    margin: 2.333vh;  
+			}
+			
+			
+			
+			.TwoColumnText p {
+                 /*font-size: 12px;*/
+                 font-size: 0.75rem;
+                 line-height: 140%;
+                 /*margin: 0 0 15px 0;*/
+                 margin: 0 0 2.333vh 0;
+            }
+			
+			.MainTextBlock > .TwoColumnText {
+			     /*margin: 20px 0 0 0;*/
+			     margin: 3.110vh 0 0 0;
+            } 
+			
+			#StagesOfWork {
+			     text-align: center;
+			     /*margin-top: 20px;*/
+			     margin-top: 1.110vh;
+			}
+			
+        	.ConsultationSteps {
+                /*background: radial-gradient(circle, #261000 58px, #fff 60px);*/
+                background: radial-gradient(circle, #261000 9.02vh, #fff 9.331vh);
+                display: inline-block;
+                /*height: 121px;*/
+                height: 18.82vh;
+                /*width: 121px;*/
+                width: 18.82vh;
+        		vertical-align: middle;
+        		overflow: hidden;
+        		/*border-radius: 60px;*/
+        		border-radius: 9.331vh;
+        		cursor: pointer;
+            }
+        	
+        	.ConsultationSteps:hover .StageTitle {
+        	   /*margin-top: -121px;*/
+        	   margin-top: -18.82vh;
+        	}
+        	
+        	.ConsultationSteps p {
+        	    color: #f0e0ca;
+        	    /*font-size: 7px;*/
+        	    font-size: 0.4375rem;
+         		text-align: center;
+        		vertical-align: middle;        		
+        	}
+        	
+        	.ConsultationSteps img {
+                /*margin: 20px 0 0 0;*/
+                margin: 3.110vh 0 0 0;
+        	}
+        	
+        	.ConsultationSteps .StageTitle p {
+        	   margin: 0;
+        	   /*font-size: 10px;*/
+        	   font-size: 0.625rem;
+        	   line-height: 90%;
+        	   text-transform: uppercase;
+        	}
+        	
+        	.ConsultationSteps .StageDescription p {
+        	   line-height: 120%;
+        	   /*font-size: 10px;*/
+        	   font-size: 0.625rem;
+        	   /*padding: 0 15px;*/
+        	   padding: 0 2.333vh;
+        	}
+        	
+        	.Further img {
+        		margin: 0 0 0 0;
+        	}
+        	
+        	.Further {
+        	    /*background: radial-gradient(circle, #261000 7px, #fff 8px);*/
+        	    background: radial-gradient(circle, #261000 1.088vh, #fff 1.244vh);
+        		display: inline-block;
+        		/*height: 17px;*/
+        		height: 2.644vh;
+        		/*margin: 0 24px 0 24px;*/
+        		margin: 0 3.733vh 0 3.733vh;
+        		vertical-align: middle;
+                /*width: 17px;*/
+                width: 2.644vh;
+            }
+            
+            
+            .StageTitle {
+                /*height: 121px;*/
+                height: 18.82vh;
+                transition: margin 0.2s ease-out;
+            }
+           
+            
+            .StageDescription {     
+                cursor: pointer;
+                display: table-cell;
+                /*height: 121px;*/
+                height: 18.82vh;
+                vertical-align: middle;
+            }
+            
+             
+
+			.Note {
+			     background: #f0e0c9;
+			}
+			
+			.Note h3 {
+			     /*margin: 30px 0 15px 0;*/
+			     margin: 4.665vh 0 2.33vh 0;
+			     text-align: center;
+			}
+			
+			
+			.PortfolioItem {
+			     display: inline-block;
+			     /*margin: 0 30px 20px 0;*/
+			     margin: 0 3.965vh 3.110vh 0;
+			     position: relative;
+			     width: 41.368vh;
+			     
+			}
+			
+			.PortfolioItem:nth-child(3n) {
+                 /*margin: 0 0 20px 0;*/
+                 margin: 0 0 3.110vh 0;
+            }
+            
+            .PortfolioItem a {
+                width: 41.368vh !importnt;
+                /*height: 26.689vh;*/
+                height: 24vh;
+                display: block;
+                overflow: hidden;
+                /*clip: rect(26.689vh, 41.368vh, 0, 0);*/
+                clip: rect(24vh, 41.368vh, 0, 0);
+            }
+			
+			.PortfolioItem img {
+                 /*width: 266px;*/
+                 width: 41.368vh;
+            }
+			
+			.PortfolioItem p {
+                 background: #3d2a1c;
+                 bottom: 0;
+                 color: #ffffff;
+                 margin: 0;
+                 /*padding: 10px;*/
+                 padding: 1.555vh;
+                 position: absolute;
+                 text-transform: uppercase;
+                 /*width: 246px;*/
+                 width: 38.258vh;
+            }
+            
+            .Title {
+                padding: 22.552vh 0 0 0;
+            }
+            
+			  
+	    /* Шапка : --конец-- */
+	    
+	    /* Основная часть страницы : --начало-- */
+	    #Content {
+
+	        width: 100%;
+	    }
+            
+            /* Верхняя панель : --начало-- */	    
+		    #TopBar {
+		    
+		    }
+		    /* Верхняя панель : --конец-- */
+		    
+		    /* Левая боковая панель : --начало-- */
+		    #LeftSidebar {
+                float: left;
+                width: 20%;     /* при фксированой ширине шаблона, ширина левой боковой так же будет иметь постоянную величину, просто она будет вычислена автоматически на основе ширины Обертки (#Wrapper) */
+		        
+		    }
+                
+            
+            
+			
+	
+	 /*Greeting начало*/
+		.Greeting {
+		    background-color: #261002;
+			color: #ffffff;
+            height: 100%;
+            line-height: 100% !important;
+            overflow: hidden;
+            text-align: center;
+		}
+		
+		/*??? 15.12.2015*/
+		.Greeting:before { /*Эта штука сдвигает "Добро пожаловать" вниз*/
+			  content: '';
+			  display: inline-block !important;
+			  height: 100%;
+			  vertical-align: middle;
+	    }
+	    
+	    
+	    .GreetingContent {
+			  display: inline-block;
+			  vertical-align: middle;
+			}
+		   
+		   .Greeting  h2 {
+		       color: #ffffff;
+			   /*font-size: 34.71px;*/
+			   font-size: 2.125rem;
+			   font-weight: normal;
+			   /*margin: 10px 0 0 0 ;*/
+			   margin: 1.555vh 0 0 0 ;
+			   text-align: center;
+		   }
+		
+		   .Greeting h3 {
+              color: #fff;
+              /*font-size: 28px;*/
+              font-size: 1.75rem;
+              font-style: normal;
+              font-weight: 400;
+              padding:  0 0 0;
+              text-align: left;
+           }
+           
+           .Greeting h4 {
+              color: #ffffff;
+              /*font-size: 17px;*/
+              font-size: 1.063rem;
+              font-weight: 400;
+              font-style: normal;
+              text-align: left;
+              text-transform: uppercase;              
+           }
+		   
+		   .Greeting p {
+		       font-style: italic;
+			   /*font-size: 18px;*/
+			   font-size: 1.125rem;
+			   line-height: 1em;
+			   text-align: center;
+		   }
+		   
+		  /* .Greeting  input {
+		       color: #3c2415;
+			   font-size: 11.53px;
+			   font-family: "Anglecia Pro Display";
+			   height: 55.5px;
+			   margin: 43px 0 0 0;
+			   text-transform: uppercase;
+			   width: 151px;
+		   }*/
+		   
+		   .Greeting  ul {
+                text-align: left;
+                /*font-size: 13px;*/
+                font-size: 0.8125rem;
+                line-height: 120%;
+           }
+		   
+		   .Greeting  ul li {
+		      /*margin: 11px 0;*/
+		      margin: 1.710vh 0;
+		   }
+		   
+		  
+		   
+		   .QA p {
+		      text-align: justify;
+		      font-style: normal;
+		      /*margin-top: 5px;*/
+		      margin-top: 0.777vh;
+		      /*font-size: 13px;*/
+		      font-size: 0.8125rem;		      
+		   }   
+		   
+		   .QA .Question {
+		      /*font-size: 12px;*/
+		      font-size: 0.75rem;
+		   }
+		   
+		   .QA .Answer {
+		      font-style: italic;
+		      /*font-size: 13px;*/
+		      font-size: 0.8125rem;
+		   }
+
+         /*Greeting конец*/		    
+                    
+		    /* Левая боковая панель : --конец-- */
+		    
+		    /* Содержимое страницы : --начало-- */
+		    #MainContent {                                                                    /* для случая, когда 1 колонка */
+		    	width: 100%;	          
+		    }
+		    
+		    /* Правила для адаптивной верстки : --начало-- */
+		    #LeftSidebar + #MainContent {                                                     /* для случая, когда 2 колонки */
+			    margin-left: 20%; /* = leftside width */
+			    width: 80%;
+			}
+			
+			#RightSidebar + #MainContent {                                                   /* для случая, когда 3 колонки */
+			    margin-left: 20%; /*  = #LeftSidebar width */
+			    margin-right: 20%; /*  = #RightSidebar width */
+			    width: 60%;        /* = #Content - #LeftSidebar - #RightSidebar */
+			}
+		    /* правила для адаптивной верстки : --конец-- */
+	      
+                #MainContent h1, #MainContent h2, #MainContent p {
+
+			    }
+			    
+			.Slogan {
+			     width: 50%;
+			}  
+			
+                .Slogan  h1 {
+                    color: #ffffff; 
+                    font-size: 2.625rem;
+                    line-height: 1em;
+                    margin: 0;
+                }
+                
+                .Slogan  h4 {
+                    color: #ffffff;
+                    font-size: 1.688rem;
+                    font-style: italic;
+                    margin: 0;
+                } 
+    
+		    .Tagline, .HiddenTagline {
+                background: rgba(240, 237, 235, 0.85);
+                box-sizing: border-box;
+                color: #392618;
+                /*height: 170px;*/
+                /*height: 100%;*/
+                /*padding: 18px;*/
+                padding: 2.799vh;
+                width: 50%;
+            } 
+            
+            .HiddenTagline {
+                background: none;
+                color: #ffffff;
+            }
+            
+                .Tagline h1, 
+                .HiddenTagline h1 {
+                    /*font-size: 42px;*/
+                    font-size: 2.625rem;
+                    line-height: 1em;
+                    margin: 0;
+                }
+                
+                .Tagline h2,
+                .HiddenTagline h2
+                {
+                    /*font-size: 34px;*/
+                    font-size: 2.125rem;
+                    margin: 0;
+                }           
+                
+                .HiddenTagline h2 {
+                    color: #ffffff;
+                }
+                
+                .Tagline h3,
+                .HiddenTagline h3
+                {
+                    font-size: 1.7rem;
+                    font-style: normal;
+                    margin: 0;
+                }           
+                
+                .HiddenTagline h3 {
+                    color: #ffffff;
+                }
+                
+                .Tagline  h4,
+                .HiddenTagline h4
+                 {
+                    /*font-size: 27px;*/
+                    font-size: 1.688rem;
+                    font-style: italic;
+                    margin: 0;
+                }   
+                
+                
+                .Tagline p, 
+                .HiddenTagline p {
+                    /*font-size: 13px;*/
+                    font-size: 0.8125rem;
+                    line-height: 130%;
+                }
+                
+                
+               
+             
+            .UnitWithBackground {
+                position: relative;
+            }
+            
+            .UnitWithBackground > img {
+                height: 100%;
+                width: 100%;
+            }
+            
+            .UnitWithBackground  .Tagline,
+            .UnitWithBackground  .HiddenTagline {
+                /*padding: 20px 15px;*/
+                padding: 3.110vh 2.333vh;
+                position: absolute; 
+                top: 0;
+            }
+
+	        table.Transparent td {
+	           background: none;
+	           border: none;
+	        }   
+			    		      
+			/* Содержимое страницы : --конец-- */
+			
+			/* Правая боковая панель : --начало-- */
+			#RightSidebar {	        
+		        float: right;
+                width: 20%;
+		        
+		    }
+                
+                #RightSidebar h1, #RightSidebar h2, #RightSidebar p {
+			        /*padding-left: 20px;
+			        padding-right: 20px;*/
+			        padding-left: 3.110vh;
+			        padding-right: 3.110vh;
+			    }
+		    /* Правая боковая панель : --конец-- */
+		    
+		    /* Нижняя панель : --конец-- */
+		    #BottomBar {
+                clear: both;
+		    }
+		    /* Нижняя панель : --конец-- */
+		    
+	    /* Основная часть страницы : --конец-- */
+	    
+	    /* Подвал : --начало-- */
+	    /* Примечание: подвал может быть вынесен за пределы обертки, если это необходим для резинки в высоту*/
+	    #Footer {
+            height: 50% !important;
+            overflow: hidden;
+            z-index: 2;
+            /*font-size: 15px;*/
+            font-size: 0.9375rem;
+           
+	    }
+	    
+	        .FlexWrap {
+	            align-items: stretch;
+	            display: flex;
+	            flex-wrap: wrap;
+	        }
+	        
+	           .FlexWrap p+p {
+                    /*height: 110px;*/
+                    height: 19.107vh;
+				    overflow: hidden;
+    		   } 	
+	        
+                #Footer h4 {
+    			    /*font-size: 13px;*/
+    			    /*font-size: 0.8125rem;*/
+    			    font-size: 1.2rem;
+    				font-weight: bold;
+    				/*margin: 25px 0 10px 0;*/
+    				margin: 3.888vh 0 1.555vh 0;
+    				
+    				/*color: #3d3d3d;*/ 
+    			}
+    			
+    			#Footer .Third {
+    			    /*display: inline-block;*/
+    			    /*font-size: 11px;*/
+    			    /*font-size: 0.6875rem;*/
+    			    font-size: 1rem;
+    			}
+    			
+    			#Footer .Third p {
+    			   line-height: 180%;
+    			}
+    			
+    			#Footer input[type="submit"] {
+    			 margin-bottom: 0;
+    			}
+    			
+		    /* reviews : начало */
+			
+			.Third {
+			    /*margin:  0 10px 0px 10px;*/
+			    margin:  0 1.555vh 0px 1.555vh;
+			    width: 30%;
+			}
+			
+    			.Third p {
+    			    /*margin: 0px 0 5px 0;*/
+    			    margin: 0px 0 0.777vh 0;
+    			}
+			
+			
+			   .Third:nth-child(5) {
+			      margin: 0;
+			   }
+			   
+			   .Third:nth-child(4) {
+			      /*margin: 20px 10px 0 10px;*/
+			      margin: 3.110vh 1.555vh 0 1.555vh;
+			   }
+			   
+			   .Greeting .Third:nth-child(4) {
+			      /*margin: 1px 10px 0;*/
+			      margin: 0.155vh 1.555vh 0;
+			   }
+			   
+            		.IcoDiv {
+                        /*margin: 10px 0 0 0;*/
+                        margin: 3.555vh 0 0 0;
+    				}
+    				
+    				    .IcoDiv a{
+                            display: inline-block;
+    				    }
+    				
+    				    .IcoInstagram {
+                 		    background: url(images/ico-instagram.png) no-repeat;
+                 		    background-size: 100%;
+    						/*background-position: -0.777vh -0.311vh;*/
+                            height: 4.354vh;
+    						width: 4.354vh;
+                		}
+    			
+                		.IcoTweeter {
+                 	 	    background: url(images/ico-tweeter.png) no-repeat;
+                 	 	    background-size: 100%;
+    						/*height: 55%;
+    						width: 28px;*/
+    						/*background-position: -5.598vh -0.311vh;*/
+                 		    height: 4.354vh;
+    						width: 4.354vh;
+                		}
+    			
+                		.IcoFacebook  {
+                            background: url(images/ico-facebook.png) no-repeat;
+                             background-size: 100%;
+    						/*height: 55%;
+    						width: 28px;*/
+    						/*background-position: -10.575vh -0.311vh;*/
+                 		    height: 4.354vh;
+    						width: 4.354vh;
+                        }
+    						
+	   					#Alerio {
+	   						/*background: url(images/ico-alerio.png) no-repeat;*/
+	   						background: url(images/Alerio_logo_rus.png) no-repeat;
+	   						background-size: 100%;
+	   						display: block;
+	   						
+	   						/*height: 60%;
+	   						width: 126px;*/
+	   						/*margin: 0 0 0 48px;*/
+	   						margin: 1vh 0 -1.1vh 0 !important;
+	   						
+	   						/*background-position: -0.622vh -9.331vh;*/
+	   						height: 4.821vh;
+	   						width: 19.595vh;
+	   						/*margin: 0 0 0 7.465vh;*/
+	   					}
+	   		.TwoThird {
+	   		  /*margin:  0 10px 0 10px;*/
+	   		  margin:  0 1.555vh 0 1.555vh;
+	   		  padding: 0;  
+              width: 60%;
+	   		}
+
+	       
+			
+			.ButtonLink {
+			     background: #ffffff;
+ 			     color: #2a2829 !important;
+			     display: block;
+			     /*font-size: 10px;*/
+			     /*font-size: 0.625rem;*/
+			      font-size: 0.85rem;
+			     
+			     /*line-height: 32px;*/
+			     line-height: 4.976vh;
+			     /*height: 32px;*/
+			     height: 4.976vh;
+			     /*margin: 35px 0 0 0;*/
+			     margin: 5.443vh 0 0 0;
+			     text-align: center;
+			     text-decoration: none;
+                 text-transform: uppercase;
+                 /*width: 100px;*/
+                 width: 15.552vh;
+			}
+			
+			.Greeting .TwoThird .ButtonLink,
+			.Greeting .Third .ButtonLink {
+			     /*margin: 15px 0 25px 0;*/
+			     margin: 2.333vh 0 3.888vh 0;
+			}
+			    
+			
+			#Footer .ButtonLink {
+                 /*background: #c3c5c7;*/
+                 /*background: #a4a4a4;*/
+                 /*background: rgba(231, 232, 232, 0.22);*/
+                  background: #f2f2f2;
+                 
+                 
+                 /*border: 1px solid #a7a7a7;*/
+                 /*border: 0.155vh solid #a7a7a7;*/
+                 border: none;
+                  
+                 /*color: #ffffff !important;*/
+                  
+            }
+            
+            
+	    /* Подвал : --конец-- */
+    
+    /* Обертка : --конец-- */
+      
+    /* =КЛАССЫ, ОБЛЕГЧАЮЩИЕ ПРОЦЕСС ВЕРСТКИ МАКЕТА=
+    -----------------------------------------------------------------------------*/    
+    .FloatLeft /* Or whatever name you like */ {
+        float: left;
+    }
+     
+    .FloatRight /* Or whatever name you like */ {
+        float: right;
+    }
+    
+    /* Class for clearing floats */
+    .Сlear {
+        clear: both;
+    }
+    
+    /* =КЛАССЫ ОФОРМЛЕНИЯ ОШИБОК
+    -----------------------------------------------------------------------------*/
+    .error {
+        color: red;
+    }
+    
+    input.error,
+    textarea.error  {
+        color: red;
+        border-color: red !important;
+    
+    
+        /*font-size: 12px !important;*/
+        font-size: 0.75rem !important;
+        /*margin-bottom: 10px !important;*/
+        margin-bottom: 1.555vh !important;
+    }
+    
+    /* = ДРУГИЕ КЛАССЫ ОФОРМЛЕНИЯ 
+    -----------------------------------------------------------------------------*/
+    Table.Light {
+        
+    }
+    
+        Table.Light td {
+            background: none;
+            border: none;
+            vertical-align: top;
+        }     
+    	
+    
+    
+}

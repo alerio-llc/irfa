@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+/*-----------------------------------------------------------------------------
+version:   1.0
+author:    Alerio Llc
+email:     info@alerio.ru
+website:   http://www.alerio.ru/
+-----------------------------------------------------------------------------*/  
+    
+#ScrollupRight {
+    bottom: 50px;
+    right: 100px;
+}
+
+#ScrollupLeft {
+    bottom: 50px;
+    left: 100px;
+}
+
+.Scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    display: none;
+    text-indent: -9999px;
+    background: url('images/iconTop.png') no-repeat;
+    z-index: 1000;
+}
+   
