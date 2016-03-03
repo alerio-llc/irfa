@@ -767,6 +767,10 @@ website:   http://www.alerio.ru/
 			     background: #f0e0c9;
 			}
 			
+			.NoteBraun {
+                 background: #261002;
+            }
+			
 			.Note h3 {
 			     /*margin: 30px 0 15px 0;*/
 			     margin: 4.665vh 0 2.33vh 0;
@@ -1341,7 +1345,53 @@ website:   http://www.alerio.ru/
             background: none;
             border: none;
             vertical-align: top;
-        }     
+        }    
+        
+        
+   .GeneralTextBlock, .GeneralTextBlockTransparent {
+        background: rgba(240, 237, 235, 0.85);
+        box-sizing: border-box;
+        color: #392618;
+        height: 100%;
+        padding: 3.110vh 2.333vh;
+        position: absolute; 
+        top: 0;
+        width: 45%;
+   }
+   
+   .GeneralTextBlockTransparent {
+        background: none;
+        color:  #ffffff;
+   }
+   
+   
+	   .GeneralTextBlock h3, .GeneralTextBlockTransparent h3 {
+		    font-size: 1.7rem;
+		    font-style: normal;
+		    margin: 0;
+		    color: #2a1504;
+		    text-transform: none;
+	    }
+	    
+	    .GeneralTextBlockTransparent h3 {
+            color: #ffffff;
+        }
+
+   
+        .GeneralTextBlock p, GeneralTextBlockTransparent p {
+            font-size: 1rem; 
+            margin: 1.4vh 0;
+        }      
+   
+   .GeneralPictureBlock {
+        box-sizing: border-box;
+        color: #392618;
+        height: 100%;
+        padding: 3.110vh 2.333vh;
+        position: absolute; 
+        top: 0;
+        width: inherit; 
+   }
     	
     
     
