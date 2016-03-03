@@ -1161,7 +1161,9 @@ website:   http://www.alerio.ru/
     			}
     			
     			#Footer input[type="submit"] {
+    			 background: #fbb03b;
     			 margin-bottom: 0;
+    			 
     			}
     			
 		    /* reviews : начало */
